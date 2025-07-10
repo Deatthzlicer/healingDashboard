@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.0">
+  <diagram name="Page-1" id="hNoy6qd8l_krRmtYl1s0">
+    <mxGraphModel dx="1430" dy="1700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-1" value="Source of Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="10" width="90" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-3" value="Patient" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="20" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-5" value="Patient" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U-M2pPpoooU2WEgNMJ6l-3">
+          <mxGeometry x="20" y="20" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-4" value="Patient" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U-M2pPpoooU2WEgNMJ6l-5">
+          <mxGeometry x="20" y="20" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-6" value="Patient" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U-M2pPpoooU2WEgNMJ6l-4">
+          <mxGeometry x="25" y="20" width="125" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-44" value="Descriptive Info" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="U-M2pPpoooU2WEgNMJ6l-6">
+          <mxGeometry x="7.5" y="38" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-7" value="Healer" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="128" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-45" value="info" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="U-M2pPpoooU2WEgNMJ6l-7">
+          <mxGeometry x="20" y="20" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="310" as="sourcePoint" />
+            <mxPoint x="1090" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-9" value="Dashboard in HealingUIX" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U-M2pPpoooU2WEgNMJ6l-10" target="U-M2pPpoooU2WEgNMJ6l-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-10" value="Healer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="440" as="sourcePoint" />
+            <mxPoint x="240" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-13" value="HealingCoreServices" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="820" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-15" value="HealingController" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="210" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="10" as="sourcePoint" />
+            <mxPoint x="240" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-18" value="Services" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-21" value="1 ~ N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-37" value="Patient &amp;amp; Healer Correlation" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="227.5" width="250" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-38" value="MessageLog" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-42" value="MessageLog" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="U-M2pPpoooU2WEgNMJ6l-38">
+          <mxGeometry y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-43" value="Text&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="U-M2pPpoooU2WEgNMJ6l-42">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-40" value="&lt;div&gt;TimeStamp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="U-M2pPpoooU2WEgNMJ6l-38">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-46" value="" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="110" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-47" value="Symbol Processing&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U-M2pPpoooU2WEgNMJ6l-20" value="1 ~ N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="95" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
