@@ -12,7 +12,7 @@ public class HealingServices {
         throw new UnsupportedOperationException("Unimplemented method 'fetchMessageFromDate'");
     }
 
-    public void getSampleMessage(Integer healerId, Integer patientId) {
+    public MessageLog getSampleMessage(Integer healerId, Integer patientId) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getSampleMessage'");
     }

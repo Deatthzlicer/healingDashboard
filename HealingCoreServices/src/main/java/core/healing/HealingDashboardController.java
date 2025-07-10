@@ -26,7 +26,7 @@ public class HealingDashboardController {
      @RequestMapping( method = RequestMethod.GET, consumes = "application/json")
     @ResponseBody
     public DashboardDetails createEfetchDashboardDetailsample((Integer healerId) throws IOException {
-    healingServices.fetchDashboardDetails(healerId);
+    return healingServices.fetchDashboardDetails(healerId);
     }
 
 /**
@@ -39,7 +39,7 @@ public class HealingDashboardController {
     @RequestMapping( method = RequestMethod.GET, consumes = "application/json")
     @ResponseBody
     public MessageLog fetchMessageSample(Integer healerId, Integer patientId) {
-    healingServices.getSampleMessage(healerId,patientId);
+    return healingServices.getSampleMessage(healerId,patientId);
     }
 
 
@@ -54,7 +54,7 @@ return healingServices.fetchMessageFromDate(dateToFetch,healerId,patientId);
     }
 
 
-         @RequestMapping( method = RequestMethod.GET, consumes = "application/json")
+    @RequestMapping( method = RequestMethod.GET, consumes = "application/json")
     @ResponseBody
     public DashboardDetails sendMessage() throws IOException {
         Reader.prn("You have new Message in the HealingApp" );
